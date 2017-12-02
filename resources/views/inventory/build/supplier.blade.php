@@ -53,7 +53,7 @@
 			})
 			.then(response => $('#data-container').html(response.data));
 		};
-
+		//Get data
 		function getData(filter, id){
 			axios.get('{{ route('getData') }}', {
 				params:{
