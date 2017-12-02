@@ -41,6 +41,7 @@
 	<script src="{{ asset('plugins/axios/js/axios.min.js') }}"></script>
 
 	<script>
+		//Fetch data
 		loadData();
 
 		function loadData(){
